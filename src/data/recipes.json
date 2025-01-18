@@ -1,67 +1,133 @@
 [
-    {
-      "id": 1,
-      "title": "Vegan Tacos",
-      "category": "Vegan",
-      "description": "Delicious plant-based tacos with fresh ingredients.",
-      "image": "./images/vegan-tacos.jpg",
-      "recipe": "1 tsp. vegetable oil, ½ onion, sliced, 2 tsp. chopped seeded jalapeño, 1 12-oz. package soy chorizo, casing removed, 1 15.4–16-oz. can vegetarian refried black beans"
-    },
-    {
-      "id": 2,
-      "title": "Chicken Curry",
-      "category": "Meaty",
-      "description": "Rich and flavorful chicken curry.",
-      "image": "./images/chicken-curry.jpg",
-      "recipe": "2.2 lbs Chicken on Bones (cut in medium sized pieces), ¾ cup Onion (grated or finely chopped), 1 cup Tomato (pureed), 1 tablespoon Ginger Garlic (paste or minced), 1 teaspoon Green Chillies (chopped or minced), ¾ cup Greek Yogurt (whisked well), 2 teaspoons Lemon Juice, 3 tablespoons Oil, 2 tablespoons Ghee, Live Charcoal + 1 tsp Ghee or Oil, Cilantro For Garnish"
-    },
-    {
-      "id": 3,
-      "title": "Chocolate Cake",
-      "category": "Cakes",
-      "description": "Decadent chocolate cake with creamy frosting.",
-      "image": "./images/chocolate-cake.jpg",
-      "recipe": "2 cups white sugar ¾ cups all-purpose flour ¾ cup unsweetened cocoa powder ½ teaspoons baking powder"
-    },
-    {
-      "id": 4,
-      "title": "Caesar Salad",
-      "category": "Salads",
-      "description": "Crispy romaine lettuce with Caesar dressing.",
-      "image": "./images/caesar-salad.jpg",
-      "recipe": "40g jarred anchovies (drained weight), 2 cloves garlic, peeled, 1 tsp Dijon mustard, British Blacktail Free Range Medium Egg yolks, ½ lemon, juice, 150ml olive oil, plus 2 tbsp, 3 slices Ciabatta, 2 romaine lettuces, 100g Parmigiano Reggiano, grated (finely, or to taste), ½ x 20g pack chives, finely chopped (optional)"
-    },
-    {
-      "id": 5,
-      "title": "Gluten-Free Pancakes",
-      "category": ["Breakfast", "Gluten-Free"],
-      "description": "Fluffy and delicious gluten-free pancakes made with simple ingredients.",
-      "image": "./images/gluten-free-pancakes.jpg",
-      "recipe": "2 Cups Gluten Free Flour Blend (e.g., King Arthur Measure for Measure), 1.5 tsp Himalayan Pink Salt (use half the amount if using table or sea salt), 1.5 Tbsp Baking Powder, ¼ Cup Granulated White Sugar, ¼ Cup Salted Butter (unsalted is fine), 2 Cups Buttermilk (slightly warm; if unavailable, substitute with milk and mix in 2 tsp white vinegar or lemon juice, then let it sit until it curdles), 2 Large Eggs, 1.5 tsp Vanilla Extract, Cooking Oil Spray"
-    },
-    {
-      "id": 6,
-      "title": "Grilled Salmon",
-      "category": "Seafood",
-      "description": "Crispy skin-on salmon fillets with a tangy and smoky glaze.",
-      "image": "./images/grilled-salmon.jpg",
-      "recipe": "4 (226g) skin-on salmon fillets, 3 Tbsp. olive oil, divided, 1 1/2 tsp. kosher salt, plus more to finish, 1/2 tsp. ground black pepper, 2 Tbsp. apple cider vinegar, 1 tsp. Dijon mustard, 1/2 tsp. smoked paprika, Chopped fresh parsley, for garnish"
-    },
-    {
-      "id": 7,
-      "title": "Avocado Toast",
-      "category": "Breakfast",
-      "description": "Creamy avocado spread on toasted bread, topped with optional eggs for a wholesome start to your day.",
-      "image": "./images/avocado-toast.jpg",
-      "recipe": "1 avocado, peeled and seeded, 2 tablespoons chopped cilantro, Juice of 1/2 lime, 1/2 teaspoon red pepper flakes (optional), Salt & pepper to taste, 2 slices whole grain bread (or bread of choice), 2 eggs, fried, scrambled, or poached (optional)"
-    },
-    {
-      "id": 8,
-      "title": "Spaghetti",
-      "category": "Meaty",
-      "image": "./images/spaghetti.jpg",
-      "description": "A timeless pasta dish featuring a hearty and flavorful meat sauce.",
-      "recipe": "255 grams ground beef, 100 grams ground pork, ⅛ teaspoon baking soda, 180 grams onion (1 small onion, finely minced), 50 grams carrot (⅓ carrot, peeled, grated), 14 grams garlic (minced), 2 tablespoons olive oil, ½ cup red wine, 500 grams tomato puree, 2 tablespoons ketchup, 1 teaspoon dried oregano, 1 teaspoon salt, ¼ teaspoon ground black pepper, 225 grams spaghetti, Flat-leaf parsley (chopped for garnish), Parmesan cheese (for garnish)"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "category": "Breakfast",
+    "title": "Pancakes",
+    "description": "Fluffy and delicious gluten-free pancakes made with simple",
+    "image": "/images/pancakes.jpg",
+    "ingredients": ["Flour", "Milk", "Eggs", "Sugar"],
+    "steps": ["Mix ingredients", "Cook on skillet"]
+  },
+  {
+    "id": 2,
+    "category": "Meaty",
+    "title": "Grilled Chicken",
+    "description": "Juicy delicious chicken",
+    "image": "/images/grilled-chicken.jpg",
+    "ingredients": ["Chicken", "Spices", "Oil"],
+    "steps": ["Marinate chicken", "Grill until cooked"]
+  },
+  {
+    "id": 3,
+    "category": "Sweet",
+    "title": "Chocolate Cake",
+    "description": "Moist deli chocolate cake",
+    "image": "/images/chocolate-cake.jpg",
+    "ingredients": ["Flour", "Cocoa", "Sugar", "Eggs"],
+    "steps": ["Mix ingredients", "Bake at 350F for 30 minutes"]
+  },
+  {
+    "id": 4,
+    "category": "Vegan",
+    "title": "Vegan Wraps",
+    "description": "Veggie crunchy delicious wrap",
+    "image": "/images/vegan-wrap.jpg",
+    "ingredients": ["Spinach wraps", "Spinach", "Red onions", "Avocado","Seasioning and Salt", "Hummus"],
+    "steps": ["Start with laying the Spinach wrap ", "Spread hummus and seasioning", "Add vegetables", "Roll wrap"]
+  },
+  {
+    "id": 5,
+    "title": "Vegan Tacos",
+    "category": "Vegan",
+    "description": "Delicious plant-based tacos with fresh ingredients.",
+    "image": "/images/vegan-tacos.jpg",
+    "ingredients": ["Vegetable oil", "Onion", "Soy chorizo", "Refried black beans"],
+    "steps": ["Cook onions", "Add soy chorizo", "Warm beans", "Assemble tacos"]
+  },
+  {
+    "id": 6,
+    "title": "Chicken Curry",
+    "category": "Meaty",
+    "description": "Rich and flavorful chicken curry.",
+    "image": "/images/chicken-curry.jpg",
+    "ingredients": [
+      "Chicken on bones",
+      "Onion",
+      "Tomato puree",
+      "Ginger garlic paste",
+      "Greek yogurt",
+      "Spices"
+    ],
+    "steps": ["Marinate chicken", "Cook onions", "Add spices and tomato puree", "Simmer chicken"]
+  },
+  {
+    "id": 7,
+    "title": "Caesar Salad",
+    "category": "Salads",
+    "description": "Crispy romaine lettuce with Caesar dressing.",
+    "image": "/images/caesar-salad.jpg",
+    "ingredients": [
+      "Romaine lettuce",
+      "Anchovies",
+      "Garlic",
+      "Egg yolks",
+      "Olive oil",
+      "Croutons",
+      "Parmesan"
+    ],
+    "steps": ["Prepare dressing", "Toss lettuce with dressing", "Add croutons and Parmesan"]
+  },
+  {
+    "id": 8,
+    "title": "Gluten-Free Pancakes",
+    "category": ["Breakfast", "Gluten-Free"],
+    "description": "Fluffy and delicious gluten-free pancakes made with simple ingredients.",
+    "image": "/images/gluten-free-pancakes.jpg",
+    "ingredients": [
+      "Gluten-free flour",
+      "Salt",
+      "Baking powder",
+      "Sugar",
+      "Butter",
+      "Buttermilk",
+      "Eggs",
+      "Vanilla extract"
+    ],
+    "steps": ["Mix dry ingredients", "Add wet ingredients", "Cook on skillet"]
+  },
+  {
+    "id": 9,
+    "title": "Grilled Salmon",
+    "category": "Seafood",
+    "description": "Crispy skin-on salmon fillets with a tangy and smoky glaze.",
+    "image": "/images/grilled-salmon.jpg",
+    "ingredients": ["Salmon fillets", "Olive oil", "Salt", "Paprika", "Apple cider vinegar"],
+    "steps": ["Season salmon", "Grill until crispy", "Add glaze"]
+  },
+  {
+    "id": 10,
+    "title": "Avocado Toast",
+    "category": "Breakfast",
+    "description": "Creamy avocado spread on toasted bread, topped with optional eggs for a wholesome start to your day.",
+    "image": "/images/avocado-toast.jpg",
+    "ingredients": ["Avocado", "Bread", "Lime", "Salt", "Eggs (optional)"],
+    "steps": ["Mash avocado", "Toast bread", "Spread avocado", "Add toppings"]
+  },
+  {
+    "id": 11,
+    "title": "Spaghetti",
+    "category": "Meaty",
+    "description": "A timeless pasta dish featuring a hearty and flavorful meat sauce.",
+    "image": "/images/spaghetti.jpg",
+    "ingredients": [
+      "Ground beef",
+      "Onion",
+      "Garlic",
+      "Tomato puree",
+      "Spaghetti",
+      "Olive oil",
+      "Parmesan"
+    ],
+    "steps": ["Cook beef and onions", "Add tomato puree", "Boil spaghetti", "Combine and serve"]
+  }
+]
