@@ -30,7 +30,9 @@ const RecipeDetail = () => {
       <div className="menu">
         <ul>
           <li>
-            <Link to="/">HOME</Link>
+           
+            <a href="/">Home</a>
+
           </li>
         </ul>
       </div>

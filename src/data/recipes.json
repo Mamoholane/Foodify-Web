@@ -1,31 +1,59 @@
 [
   {
     "id": 1,
-    "category": "Breakfast",
+ "category": "Breakfast",
     "title": "Pancakes",
-    "description": "Fluffy and delicious gluten-free pancakes made with simple",
+    "description": "Fluffy and delicious gluten-free pancakes made with simple ingredients.",
     "image": "/images/pancakes.jpg",
     "ingredients": ["Flour", "Milk", "Eggs", "Sugar"],
-    "steps": ["Mix ingredients", "Cook on skillet"]
-  },
+    "steps": [
+        "Mix all ingredients together in a large bowl.",
+        "Heat a non-stick skillet over medium heat.",
+        "Grease the skillet lightly with butter or oil.",
+        "Pour 1/4 cup of batter onto the skillet for each pancake.",
+        "Cook until bubbles form on the surface and edges look set, about 2 minutes.",
+        "Flip the pancake carefully and cook for another 1-2 minutes until golden brown.",
+        "Repeat with the remaining batter.",
+        "Serve warm with your favorite toppings like syrup, fruits, or butter."
+    ]
+},
   {
     "id": 2,
-    "category": "Meaty",
-    "title": "Grilled Chicken",
-    "description": "Juicy delicious chicken",
+   "title": "Grilled Chicken",
+    "description": "Juicy and delicious grilled chicken seasoned to perfection.",
     "image": "/images/grilled-chicken.jpg",
-    "ingredients": ["Chicken", "Spices", "Oil"],
-    "steps": ["Marinate chicken", "Grill until cooked"]
-  },
+    "ingredients": ["Chicken", "Spices (e.g., paprika, garlic powder, cumin)", "Oil", "Lemon juice"],
+    "steps": [
+        "Clean the chicken and pat it dry with a paper towel.",
+        "In a bowl, prepare the marinade by mixing the spices, oil, and lemon juice.",
+        "Rub the marinade thoroughly over the chicken, ensuring even coating.",
+        "Cover the chicken and let it marinate in the refrigerator for at least 1 hour (or overnight for better flavor).",
+        "Preheat the grill to medium heat.",
+        "Brush the grill grates with oil to prevent sticking.",
+        "Place the chicken on the grill and cook for 6-8 minutes on each side, depending on the thickness of the pieces.",
+        "Use a meat thermometer to ensure the internal temperature reaches 165°F (75°C).",
+        "Remove the chicken from the grill and let it rest for 5 minutes before serving.",
+        "Serve warm with your favorite sides like roasted vegetables or salad."
+    ]
+},
   {
     "id": 3,
-    "category": "Sweet",
     "title": "Chocolate Cake",
-    "description": "Moist deli chocolate cake",
+    "description": "A moist and decadent chocolate cake perfect for any occasion.",
     "image": "/images/chocolate-cake.jpg",
-    "ingredients": ["Flour", "Cocoa", "Sugar", "Eggs"],
-    "steps": ["Mix ingredients", "Bake at 350F for 30 minutes"]
-  },
+    "ingredients": ["Flour", "Cocoa powder", "Sugar", "Eggs", "Butter", "Baking powder", "Milk", "Vanilla extract"],
+    "steps": [
+        "Preheat the oven to 350°F (175°C) and grease a cake pan with butter or line it with parchment paper.",
+        "In a large bowl, sift together the flour, cocoa powder, baking powder, and sugar.",
+        "In a separate bowl, whisk together the eggs, melted butter, milk, and vanilla extract until well combined.",
+        "Gradually add the wet ingredients to the dry ingredients, mixing until a smooth batter forms.",
+        "Pour the batter into the prepared cake pan, spreading it evenly.",
+        "Place the pan in the preheated oven and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.",
+        "Remove the cake from the oven and let it cool in the pan for 10 minutes.",
+        "Transfer the cake to a wire rack to cool completely before serving.",
+        "Optional: Frost with chocolate ganache or dust with powdered sugar before serving."
+    ]
+},
   {
     "id": 4,
     "category": "Vegan",
@@ -80,20 +108,18 @@
   {
     "id": 8,
     "title": "Gluten-Free Pancakes",
-    "category": ["Breakfast", "Gluten-Free"],
-    "description": "Fluffy and delicious gluten-free pancakes made with simple ingredients.",
+    "category": "Breakfast",
+    "description": "Fluffy pancakes for gluten-sensitive folks.",
     "image": "/images/gluten-free-pancakes.jpg",
-    "ingredients": [
-      "Gluten-free flour",
-      "Salt",
-      "Baking powder",
-      "Sugar",
-      "Butter",
-      "Buttermilk",
-      "Eggs",
-      "Vanilla extract"
-    ],
-    "steps": ["Mix dry ingredients", "Add wet ingredients", "Cook on skillet"]
+    "ingredients": ["Flour", "Milk", "Eggs", "Sugar"],
+    "steps": [
+      "Mix all ingredients together.",
+      "Heat a non-stick skillet over medium heat.",
+      "Pour 1/4 cup of batter onto the skillet.",
+      "Cook until bubbles form and flip the pancake.",
+      "Cook until golden brown on the other side.",
+      "Serve warm with syrup or toppings."
+    ]
   },
   {
     "id": 9,
