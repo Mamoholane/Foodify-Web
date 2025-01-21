@@ -70,8 +70,10 @@ a{
   margin: 20px 0;
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  color:#964B00;
 }
 
 .recipe-card {
