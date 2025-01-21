@@ -24,7 +24,7 @@ const RecipeDetail = () => {
   return (
     <div>
       <div className="header">
-        <h1>Foodifyee</h1>
+        <h1>Foodify</h1>
         <h4>Unleashing the Chef in You!!</h4>
       </div>
       <div className="menu">
@@ -122,7 +122,7 @@ const App = () => {
             <div>
               <div className="header">
                 <h1>Foodify</h1>
-                <h4>Unleashing the Chef in You</h4>
+                <h4>Unleashing the Chef in You!!</h4>
               </div>
               <div className="slider"></div>
               <div className="menu">
