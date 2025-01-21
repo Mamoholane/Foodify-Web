@@ -25,7 +25,7 @@ const RecipeDetail = () => {
     <div>
       <div className="header">
         <h1>Foodify</h1>
-        <h4>Unleashing the Chef in You</h4>
+        <h4>Unleashing the Chef in You!!</h4>
       </div>
       <div className="menu">
         <ul>
