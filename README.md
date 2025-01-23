@@ -16,6 +16,25 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Project Structure:
 
+foodify/                 
+├── public/             
+│   ├── index.html       
+│   └── favicon.ico      
+├── src/                 
+│   ├── components/      
+│   │   ├── FilterBar.js 
+│   │   └── RecipeDetail.js 
+│   ├── data/            
+│   │   └── recipes.json 
+│   ├── styles/          
+│   │   └── App.css      
+│   ├── App.js           
+│   ├── index.js         
+│   └── reportWebVitals.js 
+├── package.json         
+├── README.md            
+└── .gitignore           
+
 ## Technologies Used: Tech Stack
 Frontend: React.js, HTML, CSS, JavaScript
 Data Storage: JSON file for initial data
