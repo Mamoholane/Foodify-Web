@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link, useParams } from 'react-router-dom';
 import './App.css';
 import recipesData from './data/recipes.json';
+import Brand from './components/Brand';
 
 const RecipeDetail = () => {
   const { id } = useParams();
@@ -24,8 +25,7 @@ const RecipeDetail = () => {
   return (
     <div>
       <div className="header">
-        <h1>Foodify</h1>
-        <h4>Unleashing the Chef in You!!</h4>
+      <Brand/>
       </div>
       <div className="menu">
         <ul>
@@ -92,6 +92,7 @@ const RecipeDetail = () => {
 
 const App = () => {
   const [filter, setFilter] = useState('All Recipes');
+  let [background, setBackground] = useState('All Recipes');
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredRecipes = recipesData.filter((recipe) => {
@@ -120,18 +121,17 @@ const App = () => {
           path="/"
           element={
             <div>
-              <div className="header">
-                <h1>Foodify</h1>
-                <h4>Unleashing the Chef in You!!</h4>
+              <Brand/>
+              <div className="slider">
+                <img src={"sliderImages/"+background+".jpg"}/>
               </div>
-              <div className="slider"></div>
               <div className="menu">
                 <ul>
                   {filters.map((f) => (
                     <li
                       key={f}
                       className={filter === f ? 'active-filter' : ''}
-                      onClick={() => setFilter(f)}
+                      onClick={() => { setFilter(f); setBackground(f); }}
                     >
                       {f}
                     </li>
@@ -146,7 +146,8 @@ const App = () => {
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="search-box"
                 />
-                <div>
+                <div className='recipe-container'>
+
                   {filteredRecipes.map((recipe) => (
                     <div key={recipe.id} className="recipe-card">
                       <img src={recipe.image} alt={recipe.title} className="card-image" />
