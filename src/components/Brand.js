@@ -4,7 +4,7 @@ const Brand = () => {
     <div className="header">
       <div className="brand">
         <div className="logo">
-          <img src="/logo.jpg"/>
+          <img src="/logo.png"/>
         </div>
         <div className="slogan">
         <h1>Foodify</h1>
