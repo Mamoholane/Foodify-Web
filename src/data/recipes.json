@@ -38,6 +38,7 @@
 },
   {
     "id": 3,
+    "category": "Sweet",
     "title": "Chocolate Cake",
     "description": "A moist and decadent chocolate cake perfect for any occasion.",
     "image": "/images/chocolate-cake.jpg",
@@ -155,5 +156,129 @@
       "Parmesan"
     ],
     "steps": ["Cook beef and onions", "Add tomato puree", "Boil spaghetti", "Combine and serve"]
-  }
+  },
+  
+  {
+    "id": 12,
+    "category": "Cocktails",
+    "title": "Mojito",
+    "description": "A refreshing Cuban cocktail made with fresh mint, lime, and rum.",
+    "image": "/images/mojito.jpg",
+    "ingredients": ["White Rum", "Fresh Mint Leaves", "Lime", "Sugar", "Soda Water", "Ice Cubes"],
+    "steps": [
+        "Muddle fresh mint leaves and sugar in a glass to release the mint's aroma.",
+        "Cut a lime into wedges and squeeze the juice into the glass, then drop the wedges in.",
+        "Fill the glass halfway with ice cubes.",
+        "Pour white rum over the ice.",
+        "Top off with soda water and stir gently.",
+        "Garnish with a sprig of mint and a lime wedge.",
+        "Serve immediately and enjoy your refreshing Mojito!"
+    ]
+},
+
+{
+  "id": 13,
+  "category": "Cocktails",
+  "title": "Passion Fruit Martini",
+  "description": "A tropical and tangy martini made with fresh passion fruit, vodka, and a hint of vanilla.",
+  "image": "/images/passion-fruit-martini.jpg",
+  "ingredients": ["Vodka", "Passion Fruit Puree", "Vanilla Syrup", "Lime Juice", "Passion Fruit Liqueur", "Ice Cubes", "Passion Fruit (for garnish)"],
+  "steps": [
+      "Fill a cocktail shaker with ice cubes.",
+      "Add vodka, passion fruit puree, vanilla syrup, lime juice, and passion fruit liqueur.",
+      "Shake well for about 15-20 seconds until well chilled.",
+      "Strain the mixture into a chilled martini glass.",
+      "Garnish with half a passion fruit on top.",
+      "Optionally, serve with a shot of prosecco on the side.",
+      "Enjoy your tropical Passion Fruit Martini!"
+  ]
+},
+
+{
+  "id": 14,
+  "category": "Cocktails",
+  "title": "Piña Colada",
+  "description": "A creamy and tropical cocktail made with pineapple, coconut, and rum.",
+  "image": "/images/pina-colada.jpg",
+  "ingredients": ["White Rum", "Coconut Cream", "Pineapple Juice", "Ice Cubes", "Pineapple Slice (for garnish)", "Maraschino Cherry (for garnish)"],
+  "steps": [
+      "Fill a blender with ice cubes.",
+      "Add white rum, coconut cream, and pineapple juice.",
+      "Blend until smooth and creamy.",
+      "Pour into a chilled hurricane or highball glass.",
+      "Garnish with a slice of pineapple and a maraschino cherry.",
+      "Serve immediately with a straw and enjoy your tropical Piña Colada!"
+  ]
+},
+
+{
+  "id": 15,
+  "category": "Mocktails",
+  "title": "Strawberry Virgin Cocktail",
+  "description": "A refreshing and fruity non-alcoholic cocktail made with fresh strawberries and citrus flavors.",
+  "image": "/images/strawberry-virgin-cocktail.jpg",
+  "ingredients": ["Fresh Strawberries", "Lemon Juice", "Honey or Sugar Syrup", "Sparkling Water", "Ice Cubes", "Mint Leaves (for garnish)", "Strawberry Slice (for garnish)"],
+  "steps": [
+      "Blend fresh strawberries, lemon juice, and honey (or sugar syrup) until smooth.",
+      "Strain the mixture to remove any pulp (optional).",
+      "Fill a glass with ice cubes.",
+      "Pour the strawberry mixture over the ice.",
+      "Top with sparkling water and stir gently.",
+      "Garnish with a strawberry slice and mint leaves.",
+      "Serve immediately and enjoy your refreshing Strawberry Virgin Cocktail!"
+  ]
+},
+
+{
+  "id": 16,
+  "category": "Gluten-Free",
+  "title": "One-Pot Garlic Shrimp & Broccoli",
+  "description": "A quick and flavorful gluten-free dish featuring tender shrimp and broccoli cooked in a garlicky sauce.",
+  "image": "/images/garlic-shrimp-broccoli.jpg",
+  "ingredients": ["Shrimp", "Broccoli", "Garlic", "Olive Oil", "Lemon Juice", "Salt", "Black Pepper", "Red Pepper Flakes (optional)"],
+  "steps": [
+      "Heat olive oil in a large skillet over medium heat.",
+      "Add minced garlic and sauté until fragrant, about 30 seconds.",
+      "Add shrimp and cook until they turn pink, about 2-3 minutes per side.",
+      "Toss in the broccoli florets and cook for another 3-4 minutes until tender-crisp.",
+      "Season with salt, black pepper, and red pepper flakes (if using).",
+      "Drizzle with fresh lemon juice before serving.",
+      "Serve warm and enjoy your gluten-free Garlic Shrimp & Broccoli!"
+  ]
+},
+
+{
+  "id": 18,
+  "category": "Cocktails",
+  "title": "Blueberry Mojito",
+  "description": "A fruity twist on the classic Mojito, made with fresh blueberries, mint, and lime.",
+  "image": "/images/blueberry-mojito.jpg",
+  "ingredients": ["White Rum", "Fresh Blueberries", "Fresh Mint Leaves", "Lime", "Sugar", "Soda Water", "Ice Cubes"],
+  "steps": [
+      "Muddle fresh blueberries, mint leaves, and sugar in a glass to release the flavors.",
+      "Cut a lime into wedges and squeeze the juice into the glass, then drop the wedges in.",
+      "Fill the glass halfway with ice cubes.",
+      "Pour white rum over the ice.",
+      "Top off with soda water and stir gently.",
+      "Garnish with a sprig of mint and a few whole blueberries.",
+      "Serve immediately and enjoy your refreshing Blueberry Mojito!"
+  ]
+},
+
+{
+  "id": 19,
+  "category": "Mocktails",
+  "title": "Strawberry Daiquiri Mocktail",
+  "description": "A refreshing and fruity non-alcoholic version of the classic Strawberry Daiquiri, made with fresh strawberries and lime juice.",
+  "image": "/images/strawberry-daiquiri-mocktail.jpg",
+  "ingredients": ["Fresh Strawberries", "Lime Juice", "Honey or Sugar Syrup", "Ice Cubes", "Sparkling Water", "Strawberry Slice (for garnish)", "Lime Wedge (for garnish)"],
+  "steps": [
+      "Blend fresh strawberries, lime juice, and honey (or sugar syrup) until smooth.",
+      "Add ice cubes and blend again until slushy.",
+      "Pour into a chilled cocktail glass.",
+      "Top with a splash of sparkling water for extra fizz (optional).",
+      "Garnish with a strawberry slice and a lime wedge.",
+      "Serve immediately and enjoy your refreshing Strawberry Daiquiri Mocktail!"
+  ]
+}
 ]
