@@ -112,6 +112,7 @@ const App = () => {
     'Salads',
     'Gluten-Free',
     'Seafood',
+    'Mocktails',
   ];
 
   return (
