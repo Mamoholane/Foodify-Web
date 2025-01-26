@@ -1,5 +1,9 @@
 # Foodify Website: Inspired by a passion for gardening and cooking.
 Foodify is a platform for food lovers, offering features such as recipe discovery and detailed step-by-step instructions for food preparation. Users can explore a wide variety of cuisines, connect with a vibrant food-loving community through a comment box, and rate their favorite dishes.
+
+## Please use the link below for Demo (I uploaded the old link on my APR)
+https://drive.google.com/file/d/1LDFamowgZpnG0HUkL4xn1uaiUYa3Zl0D/view?usp=sharing
+
 ## Solo Project: 
 Mamoholane R Mogotlane
 
